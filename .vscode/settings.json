@@ -1,3 +1,11 @@
 {
-  "cSpell.words": ["cbindgen", "cdylib", "Kitsu", "Sinabar", "staticlib"]
+  "cSpell.words": [
+    "bindgen",
+    "cbindgen",
+    "cdylib",
+    "Kitsu",
+    "rlib",
+    "Sinabar",
+    "staticlib"
+  ]
 }

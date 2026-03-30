@@ -10,5 +10,8 @@ license = "AGPL-3.0-or-later"
 
 [workspace.dependencies]
 cbindgen = "0.29.2"
+console-error-panic-hook = "0.1.7"
 hex = "0.4.3"
 kitty-keep = { path = "./kitty-keep", version = "0.1.0" }
+wasm-bindgen = "0.2.115"
+wasm-bindgen-test = "0.3.65"

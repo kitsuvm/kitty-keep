@@ -235,17 +235,17 @@ dependencies = [
 ]
 
 [[package]]
-name = "kitty-keep-gui"
+name = "kitty-keep-ffi"
 version = "0.1.0"
 dependencies = [
+ "cbindgen",
  "kitty-keep",
 ]
 
 [[package]]
-name = "kitty-keep-lib"
+name = "kitty-keep-gui"
 version = "0.1.0"
 dependencies = [
- "cbindgen",
  "kitty-keep",
 ]
 

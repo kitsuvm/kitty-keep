@@ -1,0 +1,27 @@
+[package]
+name = "kitty-keep-wasm"
+description = "Library for use in WebAssembly, designed to reduce disk usage by up to 90% using file deduplication techniques, high compression algorithms, and more efficient alternative file formats."
+version = "0.1.0"
+edition = "2024"
+categories = ["compression", "database-implementations", "multimedia"]
+keywords = ["kitty-keep", "storage", "deduplication", "compression", "wasm"]
+readme.workspace = true
+authors.workspace = true
+repository.workspace = true
+license.workspace = true
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[features]
+default = ["console-error-panic-hook"]
+
+[dev-dependencies]
+wasm-bindgen-test.workspace = true
+
+[dependencies]
+wasm-bindgen.workspace = true
+console-error-panic-hook = { workspace = true, optional = true }
+
+[profile.release]
+opt-level = "s"
