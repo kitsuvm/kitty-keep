@@ -20,6 +20,7 @@ default = ["console-error-panic-hook"]
 wasm-bindgen-test.workspace = true
 
 [dependencies]
+kitty-keep.workspace = true
 wasm-bindgen.workspace = true
 console-error-panic-hook = { workspace = true, optional = true }
 
