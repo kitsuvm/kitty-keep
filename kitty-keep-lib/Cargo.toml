@@ -1,0 +1,21 @@
+[package]
+name = "kitty-keep-lib"
+description = "Library for use in other programming languages, providing C bindings for the Kitty Keep storage tool, designed to reduce disk usage by up to 90% using file deduplication techniques, high compression algorithms, and more efficient alternative file formats."
+version = "0.1.0"
+edition = "2024"
+categories = ["compression", "database-implementations", "multimedia"]
+keywords = ["kitty-keep", "storage", "deduplication", "compression", "ffi"]
+readme.workspace = true
+authors.workspace = true
+repository.workspace = true
+license.workspace = true
+
+[lib]
+name = "kitty_keep"
+crate-type = ["cdylib"]
+
+[build-dependencies]
+cbindgen.workspace = true
+
+[dependencies]
+kitty-keep.workspace = true

@@ -1,0 +1,14 @@
+[package]
+name = "kitty-keep-gui"
+description = "Graphical user interface for the Kitty Keep storage tool, providing an intuitive and user-friendly way to manage and optimize disk usage with features like file deduplication, high compression algorithms, and support for efficient alternative file formats."
+version = "0.1.0"
+edition = "2024"
+categories = ["compression", "database-implementations", "multimedia", "gui"]
+keywords = ["kitty-keep", "storage", "deduplication", "compression", "gui"]
+readme.workspace = true
+authors.workspace = true
+repository.workspace = true
+license.workspace = true
+
+[dependencies]
+kitty-keep.workspace = true

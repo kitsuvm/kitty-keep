@@ -1,0 +1,14 @@
+[package]
+name = "kitty-keep-cli"
+description = "Command-line interface for the Kitty Keep storage tool, designed to reduce disk usage by up to 90% using file deduplication techniques, high compression algorithms, and more efficient alternative file formats."
+version = "0.1.0"
+edition = "2024"
+categories = ["compression", "database-implementations", "multimedia", "command-line-utilities"]
+keywords = ["kitty-keep", "storage", "deduplication", "compression", "cli"]
+readme.workspace = true
+authors.workspace = true
+repository.workspace = true
+license.workspace = true
+
+[dependencies]
+kitty-keep.workspace = true
